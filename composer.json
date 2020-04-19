@@ -1,6 +1,13 @@
 {
     "name": "yoctometre/aliyun-core",
     "description": "AliYun Core For Hyperf",
+    "keywords": [
+        "php",
+        "swoole",
+        "hyperf",
+        "aliyun",
+        "core"
+    ],
     "require": {
         "php": ">=7.2",
         "hyperf/contract": "^1.1",
@@ -22,8 +29,8 @@
         "psr-4": {
             "Ym\\AliyunCore\\": "src/"
         },
-        "fiiles": [
-            "./src/Config.php"
+        "files": [
+            "src/Config.php"
         ]
     },
     "autoload-dev": {
