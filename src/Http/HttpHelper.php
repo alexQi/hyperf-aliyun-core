@@ -54,7 +54,7 @@ class HttpHelper
             ],
         ]);
         try {
-            $response = $stackClient->request($httpMethod,$url,['body' => $postFields,'headers' => $headers]);
+            $response = $stackClient->request($httpMethod,$url,['form_params' => $postFields,'headers' => $headers]);
             $responseCode = $response->getStatusCode();
             $resBody = $response->getBody();
         } catch (Exception $e) {
