@@ -1,5 +1,5 @@
 {
-    "name": "yoctometre/aliyun-core",
+    "name": "ezijing/aliyun-core",
     "description": "AliYun Core For Hyperf",
     "keywords": [
         "php",
@@ -10,10 +10,10 @@
     ],
     "require": {
         "php": ">=7.2",
-        "hyperf/contract": "^1.1",
-        "hyperf/guzzle": "^1.1",
-        "hyperf/server": "^1.1",
-        "psr/container": "^1.0"
+        "hyperf/contract": "~2.0.0",
+        "hyperf/guzzle": "~2.0.0",
+        "hyperf/server": "~2.0.0",
+        "psr/container": "~1.0.0"
     },
     "require-dev": {
         "php": ">=7.2"
@@ -21,8 +21,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "xiaoyin199",
-            "email": "xiaoyin199@126.com"
+            "name": "wangyizheng",
+            "email": "18435134258@163.com"
         }
     ],
     "autoload": {
